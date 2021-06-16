@@ -1,2 +1,62 @@
-.nav__header{
+/* Hero */
+
+.hero__block{
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	box-sizing: border-box;
+	flex-grow:1;
+	
+}
+.hero__block--hawaii{
+	background-image: url("../assets/images/hawaii.jpg");
+}
+.hero__block--iceland{
+	background-image: url("../assets/images/iceland.jpg");
+}
+.hero__block--greece{
+	background-image: url("../assets/images/greece.jpg");
+}
+.hero__title{
+	font-size: 4rem;
+	color: #FFFF;
+	padding: 1rem 7.25rem;
+}
+.hero__schedule-block{
+	display:flex;
+	justify-content: space-evenly;
+	padding: 0 9.063rem;
+
+}
+.hero__schedule-card{
+	min-width: 256px;
+	min-height: 356px;
+	background-color: #FFFF;
+	padding: 1rem 1rem 0 1rem;
+	border-radius: 0.33rem;
+}
+.hero__day{
+	font-size:1.25rem;
+	text-align: center;
+	margin:0;
+}
+.hero__day-underline{
+	background-color: black;
+	display: block;
+	height: 0.2rem;
+	width: inherit;
+}
+.hero__schedule-list{
+	list-style-type: none;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-height: auto;
+	text-align: center;
+	padding: 0;
+}
+.hero__schedule{
+	height:50px;
+	background-color: #FEFAF5;
+	margin: 0.5rem 0;
 }

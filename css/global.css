@@ -1,11 +1,105 @@
+/* Boiler Plates */
+
 html{
 	height: 100%;
+	margin:0;
+	padding:0;
 }
 body{
+	min-height: 100%;
 	margin: 0;
-	padding: 0;
 	background-color: #FFFFFF;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 }
 
+/* Header */
+
+.nav__header{
+	box-sizing: border-box;
+	display:flex;
+	flex-direction:row ;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav__header__title{
+	color: #335576;
+	padding-left:7.25rem;
+	text-align: center;
+}
+.nav__header__link-container{
+	display:flex;
+	flex-direction:row ;
+	padding-right: 7.25rem;
+}
+.nav__header__link{
+	list-style-type: none;
+	padding-left: 1.75rem;
+	display:block;
+}
+
+.nav__header__link-text{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color:black;
+	display: block;
+	padding-bottom: 0.75rem;
+}
+.nav__header__link-underline{
+	background-color: #DB7A4E;
+	display: block;
+	height: 0.25rem;
+	width: inherit;
+}
+.nav__header__link-underline--hidden{
+	visibility: hidden;
+}
+
+/* Footer */
+
+.nav__footer{
+	background-color: #FEFAF5;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: auto;
+
+}
+.nav__footer__oop{
+	padding-bottom: 2rem;
+}
+.nav__footer__time-box{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.nav__footer__time-sub-box{
+	padding-right: 2rem;
+}
+.nav__footer__title{
+	color: #335576;
+	margin:0;
+	padding: 2rem 0;
+}
+.nav__footer__title-sub{
+	color: #DB7A4E;
+	font-size: 0.66rem;
+}
+.nav__footer__info{
+	color: #335576;
+	font-size: 0.8rem;
+}
+.nav__footer__social{
+	flex-grow:0.1;
+}
+.nav__footer__icon-container{
+	display:flex;
+	justify-content: flex-start;
+}
+.nav__footer__icon{
+	max-height: 1.5rem;
+	max-width: 1.5rem;
+	padding: 1rem 1.5rem 1rem 0;
+}
