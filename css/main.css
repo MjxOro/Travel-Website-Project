@@ -1,0 +1,180 @@
+.nav__header{
+	box-sizing: border-box;
+	display:flex;
+	flex-direction:row ;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav__header__title{
+	color: #335576;
+	padding-left:7.25rem;
+	text-align: center;
+}
+.nav__header__link-container{
+	display:flex;
+	flex-direction:row ;
+	padding-right: 7.25rem;
+}
+.nav__header__link{
+	list-style-type: none;
+	padding-left: 1.75rem;
+	display:block;
+}
+
+.nav__header__link-text{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color:black;
+	display: block;
+	padding-bottom: 0.75rem;
+}
+.nav__header__link-underline{
+	background-color: #DB7A4E;
+	display: block;
+	height: 0.25rem;
+	width: inherit;
+}
+.nav__header__link-underline--hidden{
+	visibility: hidden;
+}
+
+/* HERO SECTION */
+
+.hero__block{
+	background-color: #FEFAF5;
+	display: flex;
+	justify-content: space-between;
+	max-height: 510px;
+}
+.hero__text-block{
+	box-sizing: border-box;
+	padding-top: 5.625rem;
+}
+.hero__slogan{
+	font-size: 2rem;
+	color:#335576;
+	max-width: 481px;
+	padding-left: 7.25rem;
+}
+.hero__description{
+	color: #335576;
+	max-width: 552px;
+	padding-left: 7.25rem;
+}
+.btn__style-text{
+	text-decoration: none;
+	color: #FFFF;
+	box-sizing: border-box;
+}
+.btn__style{
+	background-color: #DB7A4E;
+	width: 8.375rem;
+	margin-left: 7.25rem;
+	height: 2rem;
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 1rem;
+	padding-top: 0.28rem;
+	border-radius: 1rem;
+
+}
+.hero__img{
+	background-size: cover;
+	height:22.25rem;
+	width:auto;
+	max-width: 456px;
+	max-height:456px;
+	padding: 2rem 7.25rem 3.5rem 2.813rem;
+}
+
+/* Main Content */
+
+.mc__block{
+background-color: #FFFF;
+}
+.mc__title{
+	color: #335576;
+	font-size: 1.25rem;
+	padding: 2rem 7.25rem;
+	margin: 0;
+}
+.mc__card__parent{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0 16rem;
+	padding-bottom: 4rem;
+}
+.mc__card{
+	width:212px;
+	height:318px;
+	background-position:center ;
+	background-size: cover;
+	margin: 0 1rem;
+	border-radius: 0.33rem;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
+	display:flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+.mc__card--hawaii{
+	background-image: url("../assets/images/hawaii.jpg");
+}
+.mc__card--iceland{
+	background-image: url("../assets/images/iceland.jpg");
+
+}
+.mc__card--greece{
+	background-image: url("../assets/images/greece.jpg");
+}
+.mc__card-name{
+	color: #FFFF;
+	font-size: 1.25rem;
+	padding: 0 0.5rem;
+}
+
+/* Footer */
+
+.nav__footer{
+	background-color: #FEFAF5;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.nav__footer__oop{
+	padding-bottom: 2rem;
+}
+.nav__footer__time-box{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.nav__footer__time-sub-box{
+	padding-right: 2rem;
+}
+.nav__footer__title{
+	color: #335576;
+	margin:0;
+	padding: 2rem 0;
+}
+.nav__footer__title-sub{
+	color: #DB7A4E;
+	font-size: 0.66rem;
+}
+.nav__footer__info{
+	color: #335576;
+	font-size: 0.8rem;
+}
+.nav__footer__social{
+	flex-grow:0.1;
+}
+.nav__footer__icon-container{
+	display:flex;
+	justify-content: flex-start;
+}
+.nav__footer__icon{
+	max-height: 1.5rem;
+	max-width: 1.5rem;
+	padding: 1rem 1.5rem 1rem 0;
+}
