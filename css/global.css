@@ -47,6 +47,7 @@ body{
 	color:black;
 	display: block;
 	padding-bottom: 0.75rem;
+	position: relative;
 }
 .nav__header__link-underline{
 	background-color: #DB7A4E;
@@ -58,6 +59,24 @@ body{
 	visibility: hidden;
 }
 
+/* Diving Deeper */
+
+.nav__header__link-text::after{
+	content: "";
+	position: absolute;
+	background-color: #335576;
+	height: 0.1rem;
+	width:0;
+	left: 0;
+	bottom: 0.75rem;
+	transform: scale(0,1);
+	transition: 200ms cubic-bezier(0, 0.32, 0, 1.08);
+	
+}
+.nav__header__link-text:hover::after{
+	width:100%;
+	transform: scale(1,1);
+}
 /* Footer */
 
 .nav__footer{
@@ -102,4 +121,7 @@ body{
 	max-height: 1.5rem;
 	max-width: 1.5rem;
 	padding: 1rem 1.5rem 1rem 0;
+}
+.nav__footer__icon-link{
+	text-decoration: none;
 }

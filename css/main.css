@@ -23,10 +23,10 @@
 }
 .btn__style-text{
 	text-decoration: none;
-	color: #FFFF;
 	box-sizing: border-box;
 }
 .btn__style{
+	color: #FFFF;
 	background-color: #DB7A4E;
 	width: 8.375rem;
 	margin-left: 7.25rem;
@@ -35,8 +35,8 @@
 	text-align: center;
 	box-sizing: border-box;
 	font-size: 1rem;
-	padding-top: 0.28rem;
 	border-radius: 1rem;
+	border:none;
 }
 .hero__img{
 	background-size: cover;
@@ -95,3 +95,10 @@ background-color: #FFFF;
 .mc__card-link{
 	text-decoration: none;
 }
+/* Diving Deeper */
+
+.mc__card-link:hover .mc__card{
+	transition: 150ms ease-in;
+	opacity: 0.3;
+}
+
